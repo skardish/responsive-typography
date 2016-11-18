@@ -45,7 +45,7 @@ article header p {
 }
 
 article ol {
-
+ margin-left: -1.5rem;
 }
 
 article > p:last-child {
