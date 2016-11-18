@@ -37,7 +37,8 @@ article header {
 }
 
 article p {
-
+  margin-right: .5rem;
+  margin-top: 1rem;
 }
 
 article header p {
@@ -64,9 +65,46 @@ blockquote {
 
 @media only screen and (min-width: 20em) {
 
+  header {
+    line-height: .25;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
+
+  article {
+    padding: 1rem;
+  }
+
+  blockquote {
+    margin-right: -2.5rem;
+    margin-left: 0;
+  }
+
+  article > p:last-child {
+    padding-bottom: 2rem;
+  }
 }
 
 @media only screen and (min-width: 38em) {
+
+  header {
+    line-height: .25;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
+
+  article {
+    padding: 1rem;
+  }
+
+  blockquote {
+    margin-right: -2.5rem;
+    margin-left: 0;
+  }
+
+  article > p:last-child {
+    padding-bottom: 2rem;
+  }
 
 }
 
