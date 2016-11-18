@@ -46,7 +46,7 @@ article header p {
 }
 
 article ol {
- margin-left: -1.5rem;
+  margin-left: -1.5rem;
 }
 
 article > p:last-child {
@@ -87,31 +87,75 @@ blockquote {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   header {
-    line-height: .25;
     padding-bottom: .5rem;
-    padding-top: .5rem;
+    padding-top: .25rem;
   }
 
   article {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   blockquote {
-    margin-right: -2.5rem;
-    margin-left: 0;
+    margin: 0 auto;
+    padding-right: 2rem;
   }
 
   article > p:last-child {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+    margin-bottom: 1rem;
+  }
+
+  article {
+    margin-left: 4rem;
+  }
+
+  blockquote {
+    margin: 0 auto;
+    padding-right: 2rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    line-height: 2;
+    font-size: 130%;
+    margin-bottom: 1rem;
+  }
+
+  article {
+    margin-left: 8rem;
+  }
+
+  blockquote {
+    margin: 0 auto;
+    padding-right: 2rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
 
 }
